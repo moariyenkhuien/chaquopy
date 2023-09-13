@@ -1,1 +1,10 @@
+package:
+  name: praat-parselmouth
+  version: "0.4.2"
 
+requirements:
+  build:
+    - cmake
+    - pybind11 2.4.3
+  host:
+    - numpy 23.5
